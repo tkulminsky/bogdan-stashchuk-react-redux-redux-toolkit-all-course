@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.1s;
+  transform: scale(1.01);
+  background-color: #bcdcff;
+}
+
+button:active {
+  transition: 0.1s;
+  transform: scale(1.02);
+
+  background-color: #82b0df;
+}
+
+form {
+  font-size: 30px;
+}
+
+input {
+  font-size: 20px;
+  margin: 15px;
+  padding: 10px;
+}
+
+label {
+  display: block;
+}

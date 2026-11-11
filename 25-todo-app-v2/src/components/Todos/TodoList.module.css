@@ -1,0 +1,10 @@
+.todoListContainer {
+  padding: 10px;
+}
+
+span {
+  color: lightgreen;
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
+}

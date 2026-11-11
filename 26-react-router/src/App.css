@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+/* ----- Used by default with NavLink ----- */
+.active {
+  color: yellow;
+}
+
+.activeLink {
+  color: yellow;
+}
+
+/* .courses {
+  padding: 100px;
+  font-size: 30px;
+} */
+
+.courseLink {
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.075s;
+  text-decoration: none;
+  display: block;
+  margin: 25px auto;
+  width: 960px;
+  padding: 25px;
+}
+
+.courseLink:hover {
+  color: lightyellow;
+  scale: 1.05;
+}
+
+/* .courseLink {
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.courseLink:hover {
+  text-decoration: underline;
+} */
+
+a {
+  color: lightblue;
+  font-size: 35px;
+}
+
+nav {
+  background-color: darkslategray;
+  padding: 5px;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lightyellow;
+  text-decoration: overline;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.1s;
+  transform: scale(1.01);
+  background-color: #bcdcff;
+}
+
+button:active {
+  transition: 0.1s;
+  transform: scale(1.02);
+
+  background-color: #82b0df;
+}
+
+.dropdown-container * {
+  font-size: 20px;
+}
+
+.dropdown-container {
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  margin: 10px auto 20px auto;
+  width: 300px;
+  padding: 10px 0px;
+}
+
+.dropdown-container:hover {
+  transition: 0.075s;
+  scale: 1.01;
+}
+.dropdown-container:hover * {
+  color: rgb(192, 228, 192);
+}
+
+.dropdown-label {
+  content: '';
+}
+
+.dropdown-select {
+  padding: 0px 3px;
+  background-color: #112d49;
+  color: white;
+  border-radius: 7.5px;
+  border-color: lightblue;
+  padding: 5px 10px;
+}

@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  width: 250px;
+  border: 1px lightgrey solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding-bottom: 10px;
+}
+
+.cards :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}

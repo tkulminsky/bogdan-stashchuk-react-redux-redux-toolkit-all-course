@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+body * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+input {
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.1s;
+  transform: scale(1.01);
+  background-color: #bcdcff;
+}
+
+button:active {
+  transition: 0.1s;
+  transform: scale(1.02);
+
+  background-color: #82b0df;
+}
